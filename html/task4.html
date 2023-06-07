@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/Task3.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Task 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Italiana&display=swap');
+    </style>
+    <style>
+      h5{
+        color: black;
+      }
+    </style>
+</head>
+<body style="background-color: black;">
+<!-- #################################################### -->
+<div class="d-flex flex-row-reverse"><button type="button" class="btn text-white fs-1" onclick="openNav()"><i class="bi bi-list" style="font-size: 60px; color: #dc4c27;"></i></button></div>
+<div id="mySidenav" class="sidenav" style="font-family:  Cormorant Garamond;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="task1.html">Task1</a>
+  <a href="task2.html">Task2</a>
+  <a href="task3.html">Task3</a>
+  <a href="task4.html">Task4</a>
+  <a href="task5.html">Task5</a>
+  <a href="task6.html">Task6</a>
+  <a href="../index.html">HomePage</a>
+</div>
+<!-- ############################################################## -->
+<main class="container">
+    <div class="row g-5">
+      <div class="col-md">
+        <article class="blog-post text-white">
+          <p style="font-family: Italiana; font-size: 75px;">
+          TASK 4_Problem statement & brainstorming, page sketching and user flows</p>
+          <div class="col-6 p-3 ms-5" style="background-color: rgba(10, 118, 118, 0.629)">
+          <h1 class="fw-light" style="color: orangered;" >Objective</h1>
+          <p class="mt-4 me-4">This task has two objectives. The first is to clarify the problem you are trying to solve by producing a final Problem Statement. The second objective is to explore how you will solve the problem identified in your Problem Statement through brainstorming, paper sketching and user flows.
+          </p>
+          </div>
+        </article>
+      </div>  
+    </div>
+  </main>
+
+  <div class="container" style="margin-top: 200px!important;">            
+    <p class="text-white" style="font-size: 50px;">Problem Statement (Final)</p>
+    <hr class="mb-5" style="border: 3px solid; width: 60%; border-color: #dc4c27;">
+    <p class="text-white-50 fs-4">Canvas, BUV's learning management system, consistently fails to support students regarding education and personal development. The existing system possesses two significant drawbacks that impede users from achieving their learning objectives: an inadequate interface and an outdated communication system. Therefore, students and staffs become less engaged and inspired as a result, ultimately leading to the reduction of the university's performance and productivity. To address the identified issue, we suggest creating an LMS with two primary characteristics. The initial step involves enhancing the information architecture of the LMS to align with user-centered design principles. In particular, the upgraded interface should offer customization features that allow users to personalize elements like font size, color scheme, and layout. These customization options contribute to a visually attractive and harmonious interface tailored to individual user preferences. Additionally, to address the issues with the current communication system, two key features can be implemented. Firstly, a real-time messaging system can be introduced to facilitate direct and immediate communication between instructors and students. Secondly, the creation of discussion forums for various academic majors within BUV fosters a collaborative environment where students can engage in meaningful discussions and knowledge sharing.</p>
+  </div> 
+<!-- ############################################################## -->
+<div class="container" style="margin-top: 200px!important;">
+  <p class="text-white" style="font-size: 50px; font-family: Italiana;">Paper Sketching _ Feature 1: UI/UX</p>
+  <hr class="mb-5" style="border: 3px solid; width: 80%; border-color: #dc4c27;">
+  <p class="text-white-50 fs-4 mb-5">Most of the Feature 1 relates to UI/UX design. There are three major changes that are made. Firstly, users now can change the theme of the whole LMS by going to setting. Secondly, module’s files can be previewed by hovering the mouse over them. Lastly, there is a section for students to comment about the files.</p>
+  <p class="text-white" style="font-size: 40px;">#1 Customizability</p>
+  <div id="Customizability" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#Customizability" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Customizability" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#Customizability" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#Customizability" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../images/Customizability_1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>1</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Customizability_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>2</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Customizability_3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>3</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Customizability_4.jpg" class="d-block w-100" alt="..." data-bs-interval="10000">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>4</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Customizability" data-bs-slide="prev">
+      <span style="font-size: 75px;" aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Customizability" data-bs-slide="next">
+      <span style="font-size: 75px;" aria-hidden="true"><i class="bi bi-caret-right-fill"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ########################################################### -->
+  <p class="text-white mt-5" style="font-size: 40px;">#2 File Preview</p>
+  <div id="FilePreview" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#FilePreview" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#FilePreview" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#FilePreview" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#FilePreview" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../images/Files_Preview_1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>1</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Files_Preview_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>2</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Files_Preview_3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>3</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Files_Preview_4.jpg" class="d-block w-100" alt="..." data-bs-interval="10000">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>4</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#FilePreview" data-bs-slide="prev">
+      <span style="font-size: 75px;" aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#FilePreview" data-bs-slide="next">
+      <span style="font-size: 75px;" aria-hidden="true"><i class="bi bi-caret-right-fill"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- ######################################################### -->
+  <p class="text-white mt-5" style="font-size: 40px;">#3 Comment</p>
+  <div id="Comment" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="4" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="5" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#Comment" data-bs-slide-to="6" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../images/Comments_1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>1</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Comments_2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>2</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Comments_3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>3</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Comments_4.jpg" class="d-block w-100" alt="..." data-bs-interval="10000">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>4</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Comments_5.jpg" class="d-block w-100" alt="..." data-bs-interval="10000">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>5</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Comments_6.jpg" class="d-block w-100" alt="..." data-bs-interval="10000">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>6</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Comments_7.jpg" class="d-block w-100" alt="..." data-bs-interval="10000">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>7</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Comment" data-bs-slide="prev">
+      <span style="font-size: 75px;" aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Comment" data-bs-slide="next">
+      <span style="font-size: 75px;" aria-hidden="true"><i class="bi bi-caret-right-fill"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!-- ###################################################### -->
+</div>
+<!-- ######################################################## -->
+<div class="container" style="margin-top: 200px!important; width: 100vw!important;">
+  <p class="text-white" style="font-size: 50px; font-family: Italiana;">Paper Sketching _ Feature 1: UI/UX</p>
+  <hr class="mb-5" style="border: 3px solid; width: 80%; border-color: #dc4c27;">
+  <p class="text-white" style="font-size: 40px;">#1 Customizability</p>
+  <div class="d-flex justify-content-around text-white w-100">
+    <img style="width: 50%;" src="../images/User_Flow_Customizability.png" alt="">
+    <div class="d-flex flex-column justify-content-center ms-5"><p class="w-75 fs-4 border p-4">
+      Step 1: User presses on “Account” button in the left side navigation bar and program pops up a menu. <br>
+      Step 2: User presses on “Settings” button in account menu and program navigate user to settings page. <br>
+      Step 3: User presses on “Customize UI” button in the middle of the screen and program pops up “Choose your theme” menu for user to choose their favorite theme. <br>
+      Step 4: User presses on one of the buttons of the themes in the “Choose your theme” menu and program changes theme of the website.
+    </p></div>
+  </div>
+  <!-- ########################## -->
+  <p class="text-white" style="font-size: 40px; margin-top: 100px;">#2 File Preview</p>
+  <div class="d-flex justify-content-around text-white w-100">
+    <div class="d-flex flex-column justify-content-center ms-5"><p class="w-75 fs-4 border p-4">
+      Step 1: User presses on “Courses” button in the left side navigation bar and program pops up menu. <br>
+      Step 2: User presses on a module’s button in pop-up menu and program navigates user to that module’s page. <br>
+      Step 3: User hovers mouse cursor over one of the files of the module and program shows a preview of the content of the file.
+    </p></div>
+    <img style="width: 50%;" src="../images/User_Flow File Preview.png" alt="">
+  </div>
+  <!-- ########################### -->
+  <p class="text-white mt-5" style="font-size: 40px; margin-top: 100px;">#3 Comment</p>
+  <div class="d-flex justify-content-around text-white w-100">
+    <img style="width: 50%;" src="../images/User_Flow Comment.png" alt="">
+    <div class="d-flex flex-column justify-content-center ms-5"><p class="w-75 fs-4 border p-4">
+      Step 1: User presses on “Courses” button in the left side navigation bar and program pops up menu. <br>
+      Step 2: User presses on a module’s button in pop-up menu and program navigates user to that module’s page. <br>
+      Step 3: User presse <br>
+      Step 4: User presses on comment box in “Comments” section to enable typing. User types a comment in comment box in “Comments” section and presses on “Add a new comment” button to add a new comment to “Comments” section.
+    </p></div>
+  </div>
+
+</div>
+<!-- ############################################################ -->
+<div class="container" style="margin-top: 200px!important;">
+  <p class="text-white" style="font-size: 50px; font-family: Italiana;">Paper Sketching _ Feature 2: Discussion</p>
+  <hr class="mb-5" style="border: 3px solid; width: 80%; border-color: #dc4c27;">
+  <p class="text-white-50 fs-4 mb-5">The old “Discussion” feature of the LMS will be replaced by this “Feature 2”. “Feature 2” is very much like a forum which allows LMS users to post academic contents including text post, photos and videos, and Links.
+  </p>
+  <p class="text-white" style="font-size: 40px;"># Threads</p>
+  <div id="Threads" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button  type="button" data-bs-target="#Threads" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Threads" data-bs-slide-to="1" aria-label="Slide 2"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../images/Thread 1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>1</h5>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../images/Thread 2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>2</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Threads" data-bs-slide="prev">
+      <span style="font-size: 75px; color: black;" aria-hidden="true"><i class="bi bi-caret-left-fill"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Threads" data-bs-slide="next">
+      <span style="font-size: 75px; color: black;" aria-hidden="true"><i class="bi bi-caret-right-fill"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ########################################################### -->
+</div>
+<!-- ####################################################### -->
+<div class="container" style="margin-top: 200px!important; width: 100vw!important;">
+  <p class="text-white" style="font-size: 50px; font-family: Italiana;">User Flow _ Feature 2: Discussion</p>
+  <hr class="mb-5" style="border: 3px solid; width: 80%; border-color: #dc4c27;">
+  <p class="text-white" style="font-size: 40px;"># Threads _ Create Post</p>
+  <div class="d-flex justify-content-around text-white w-100">
+    <img style="width: 50%;" src="../images/UserFLow Create Post.png" alt="">
+    <div class="d-flex flex-column justify-content-center ms-5"><p class="w-75 fs-4 border p-4">
+      Step 1: The user clicks on the input box to create a post. <br>
+      Step 2: They will be redirected to the post creation page, where there will be "Title" and "Content" input fields. User enters Title and Content. <br>
+      Step 3: User clicks on “Post” button. <br>
+      Step 4: Posts will be processed, archived, and posted to the forum after the moderation period.
+    </p></div>
+  </div>
+  <!-- ########################## -->
+  <p class="text-white" style="font-size: 40px; margin-top: 100px;"># Threads _ Create a new comment</p>
+  <div class="d-flex justify-content-around text-white w-100">
+    <div class="d-flex flex-column justify-content-center ms-5"><p class="w-75 fs-4 border p-4">
+      Step 1: The user clicks on the input box to create a comment. <br>
+      Step 2: Users can enter their comments, attach files, images or icons. <br>
+      Step 3: Users press "send" or press Enter to submit a comment. If the comment box is left blank, the user will receive an error message and ask to enter any information before submitting. <br>
+      Step 4: If submitted successfully, the comment will be saved to the system and posted under the comment section of the main post.
+    </p></div>
+    <img style="width: 50%;" src="../images/UserFlow Creat a New Comment.png" alt="">
+  </div>
+</div>
+<!-- ################################################################# -->
+<div class="container">
+    <p class="text-white" style="font-size: 50px; margin-top: 200px;">Analysis</p>
+    <hr class="mb-5" style="width: 60%; border: 3px solid; border-color: #dc4c27;">
+    <div class="text-white-50 fs-4" style="text-align: justify;">
+      <p>
+        Due to the absence of an effective learning management system, BUV is facing challenges in supporting students' growth. Interviews conducted with students and LMS Competitive Analysis revealed two key issues: communication system and interface. This report will provide a comprehensive explanation for selecting the mentioned features and to showcase our team's desire to improve the overall LMS experience. Additionally, we would like to highlight the potential challenges associated with each point and propose suitable solutions to address them.
+      </p>
+      <p>
+        Based on recent interviews, participants consistently perceive the Discussions feature as only necessary when prompted by instructors during class sessions. In response, our desire is to create a new communication platform that facilitates users in posting technical inquiries, providing solutions, and engaging in discussions on various subjects across different majors at BUV. This platform will enable students to actively participate in discussions and connect with like-minded individuals within the university. There are two rationales behind the selection of improving the current communication system. Firstly, based on our interviews, all participants (100%) expressed dissatisfaction with the current communication system of the LMS, reporting a lack of value derived from its usage. Lastly, improving meaningful interactions among students will foster a sense of community and encourage peer-to-peer learning, enabling students to learn from each other's experiences and insights. 
+      </p>
+      <p>
+        However, ensuring the quality, appropriateness, and compliance of user-generated content can be complex and demanding. Inappropriate or offensive posts and the presence of spam/irrelevant content are cases in point. To address these challenges, several solutions can be implemented. Firstly, implementing a robust moderation system with human moderators/automated tools can help identify and remove inappropriate content promptly. Secondly, implementing the user reporting features can allow members to flag inappropriate content, aiding moderators addressing content violations. Furthermore, utilizing advanced filtering algorithms and technologies can help automatically detect and block spam or irrelevant content, reducing the burden on moderators and maintaining the forum's integrity. These solutions can help create a safe, engaging, and valuable space for users to exchange ideas and foster meaningful discussions. 
+      </p>
+      <p>
+        When considering the UI/UX of the LMS, there are several reasons for prioritizing it as our second feature to upgrade. The primary rationale stems from the student’s experience, which takes precedence. Based on the feedback from student interviews, it was unanimously expressed by all participants (100%) that the current interface lacks appeal, leading to decreased student engagement and inspiration. Additionally, a modern and visually pleasing interface creates a positive impression, instilling confidence, and trust in the system, and thereby promoting user adoption and participation. 
+      </p>
+      <p>We have considered the potential challenges that may arise during the implementation of the upgrade. It is important to acknowledge that individuals have their own preferences when it comes to design, and the LMS interface is no exception. To address this, our proposed solution is to provide a customizable option that allows users to personalize various elements, such as font size, color scheme, and layout. By offering this flexibility, users can tailor the interface to their liking, creating a more personalized and enjoyable user experience. Another challenge is maintaining a balance between aesthetics and functionality. While a visually appealing interface is important, it should not compromise the usability and efficiency of the system. Engaging user interface experts and conducting user testing throughout the design process can help strike the right balance.
+
+      </p>
+    </div>
+  </div>
+  <!-- ############################################################ -->
+    <div class="container" style="flex-direction: column;">
+        <h1 class="text-white">Gantt Chart & Budget</h1>
+        <img src="../images/Screenshot 2023-05-15 022353.png" alt="grant-chart-t3">
+    </div>
+<!-- ########################################################## -->
+<div class="me-5" style="margin-top: 100px;">
+    <i class="bi bi-arrow-right float-end" style="color: red; font-size: 40px;">
+      <a class="text-white-50 float-end fw-light" href="task5.html">Task 5</a> 
+    </i>
+  </div>
+<!-- Bootstrap 5.0.2 js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "45%";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+</body>
+</html>

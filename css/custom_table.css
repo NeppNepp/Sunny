@@ -1,0 +1,14 @@
+td,th{
+    padding: 15px;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    border-color: #124c5e;
+  }
+  
+  td:last-child{
+    border: 0;
+  }
+  th:last-child{
+    border: 0;
+    word-wrap: break-word;
+  }
